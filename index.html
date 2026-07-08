@@ -1,1 +1,304 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mhar Bercasio Daniel — Full Stack Web Developer</title>
+<meta name="description" content="Full Stack Web Developer with 7+ years building web applications for the Aviation and Retail industries. PHP/Laravel, Angular, Next.js, ASP.NET Core.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script>
+  (function () {
+    var saved = localStorage.getItem('theme');
+    var theme = saved || (window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark');
+    document.documentElement.setAttribute('data-theme', theme);
+  })();
+</script>
+</head>
+<body>
+
+<div class="editor">
+
+  <!-- Tab bar -->
+  <div class="tab-bar">
+    <div class="tab active">
+      <span class="tab-icon">JS</span>
+      <span>mhar-daniel.dev</span>
+      <span class="tab-dot" aria-hidden="true"></span>
+    </div>
+    <nav class="tab-nav" aria-label="Section navigation">
+      <a href="#about">about</a>
+      <a href="#stack">stack</a>
+      <a href="#experience">experience</a>
+      <a href="#education">education</a>
+      <a href="#contact">contact</a>
+      <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle light and dark theme">🌙</button>
+    </nav>
+  </div>
+
+  <!-- Main scrollable code pane -->
+  <div class="pane">
+    <div class="gutter" aria-hidden="true"></div>
+
+    <main class="code">
+
+      <!-- HERO -->
+      <section class="block hero" id="top">
+        <p class="eyebrow">Full Stack Web Developer · 7+ years</p>
+        <h1 class="hero-title">Mhar Bercasio Daniel</h1>
+        <p class="hero-sub">Full stack developer shipping reliable systems for the aviation and retail industries. PHP/Laravel, Angular, Next.js, ASP.NET Core.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="https://drive.google.com/uc?export=download&id=1XYJjQB8NkD2I-2Ial-PCo6u8QLerikDt" target="_blank" rel="noopener noreferrer">Download résumé (PDF)</a>
+          <a class="btn btn-ghost" href="mailto:danielmharbercasio@gmail.com">Get in touch</a>
+          <a class="btn btn-ghost" href="#experience">See work history ↓</a>
+        </div>
+        <div class="hero-links">
+          <a href="https://www.linkedin.com/in/mhardaniel/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+          <a href="https://github.com/mhardaniel" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+        </div>
+
+        <div class="hero-code" aria-hidden="true">
+          <div class="line comment">// mhar-daniel.dev</div>
+          <div class="line kw">const <span class="var">developer</span> = {</div>
+          <div class="line indent">name: <span class="str">"Mhar Bercasio Daniel"</span>,</div>
+          <div class="line indent">role: <span class="str">"Full Stack Web Developer"</span>,</div>
+          <div class="line indent">experience: <span class="str">"7+ years"</span>,</div>
+          <div class="line indent">focus: [<span class="str">"Laravel"</span>, <span class="str">"Angular"</span>, <span class="str">"Next.js"</span>, <span class="str">".NET Core"</span>],</div>
+          <div class="line indent">basedIn: <span class="str">"Pasig City, PH"</span>,</div>
+          <div class="line">};</div>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section class="block" id="about">
+        <div class="line comment">// about</div>
+        <p class="prose">
+          Full Stack Web Developer with over 7 years of experience building and maintaining web
+          applications. Highly proficient in PHP (Laravel) and Angular, with a consistent track
+          record of developing functional, scalable solutions for the Aviation and Retail industries.
+          Experienced in managing the full development lifecycle, from designing RESTful APIs to
+          deploying frontend components. A practical problem-solver focused on delivering clean code
+          and reliable system performance.
+        </p>
+      </section>
+
+      <!-- STACK -->
+      <section class="block" id="stack">
+        <div class="line comment">// stack</div>
+        <div class="line kw">const <span class="var">skills</span> = {</div>
+
+        <div class="stack-grid">
+          <div class="stack-row">
+            <span class="key">primary:</span>
+            <div class="tags">
+              <span class="tag tag-primary">PHP (Laravel)</span>
+              <span class="tag tag-primary">Angular 2+</span>
+              <span class="tag tag-primary">NgRx</span>
+              <span class="tag tag-primary">TypeScript</span>
+              <span class="tag tag-primary">MySQL</span>
+            </div>
+          </div>
+          <div class="stack-row">
+            <span class="key">secondary:</span>
+            <div class="tags">
+              <span class="tag">PHP (CodeIgniter)</span>
+              <span class="tag">C# / ASP.NET Core</span>
+              <span class="tag">Next.js</span>
+              <span class="tag">Node.js</span>
+              <span class="tag">React.js</span>
+              <span class="tag">PostgreSQL</span>
+            </div>
+          </div>
+          <div class="stack-row">
+            <span class="key">databases:</span>
+            <div class="tags">
+              <span class="tag">MySQL</span>
+              <span class="tag">PostgreSQL</span>
+              <span class="tag">MongoDB</span>
+              <span class="tag">SQLite</span>
+            </div>
+          </div>
+          <div class="stack-row">
+            <span class="key">devops:</span>
+            <div class="tags">
+              <span class="tag">Azure DevOps</span>
+              <span class="tag">AWS</span>
+              <span class="tag">Docker</span>
+              <span class="tag">Git</span>
+              <span class="tag">WSL</span>
+              <span class="tag">Postman</span>
+              <span class="tag">RESTful API</span>
+            </div>
+          </div>
+          <div class="stack-row">
+            <span class="key">frontend:</span>
+            <div class="tags">
+              <span class="tag">Tailwind CSS</span>
+              <span class="tag">Bootstrap 3+</span>
+              <span class="tag">jQuery</span>
+              <span class="tag">Figma</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="line">};</div>
+      </section>
+
+      <!-- EXPERIENCE -->
+      <section class="block" id="experience">
+        <div class="line comment">// experience</div>
+
+        <article class="job">
+          <div class="line kw">function <span class="fn">RobinsonsRetailHoldings</span>(<span class="param">stack</span>) {</div>
+          <header class="job-head">
+            <h3>Full Stack Web Developer</h3>
+            <span class="job-meta">Robinsons Retail Holdings Inc. · Oct 2025 — Present</span>
+          </header>
+          <div class="line indent comment-inline">// stack: ASP.NET Core Web API, Next.js, PostgreSQL, Docker</div>
+          <ul class="job-list">
+            <li>Architecting high-performance features for the South Star Drug (SSD) e-commerce platform.</li>
+            <li>Integrating modern Next.js front-ends with scalable ASP.NET Core backend services to optimize retail operations.</li>
+          </ul>
+          <div class="line">}</div>
+        </article>
+
+        <article class="job">
+          <div class="line kw">function <span class="fn">VisayaKPO</span>(<span class="param">stack</span>) {</div>
+          <header class="job-head">
+            <h3>Full Stack Web Developer</h3>
+            <span class="job-meta">Visaya Knowledge Process Outsourcing Corporation · Jan 2024 — Jul 2025</span>
+          </header>
+          <div class="line indent comment-inline">// stack: WordPress, Elementor Pro, CSS3, JavaScript</div>
+          <ul class="job-list">
+            <li>Developed custom web solutions and improved site performance and SEO rankings via Google PageSpeed Insights.</li>
+          </ul>
+          <div class="line">}</div>
+        </article>
+
+        <article class="job">
+          <div class="line kw">function <span class="fn">CebuPacificAir</span>(<span class="param">stack</span>) {</div>
+          <header class="job-head">
+            <h3>Full Stack Web Developer</h3>
+            <span class="job-meta">Cebu Pacific Air · Feb 2021 — Aug 2023</span>
+          </header>
+          <div class="line indent comment-inline">// stack: Node.js, Angular, Azure DevOps, Apigee, Amplience CMS</div>
+          <ul class="job-list">
+            <li>Enhanced the Passenger Booking Flow using Angular, focusing on a smoother interface for the airline's core reservation system.</li>
+            <li>Managed content updates via Amplience CMS to ensure real-time accuracy and reliability of customer-facing pages.</li>
+          </ul>
+          <div class="line">}</div>
+        </article>
+
+        <article class="job">
+          <div class="line kw">function <span class="fn">Voqa</span>(<span class="param">stack</span>) {</div>
+          <header class="job-head">
+            <h3>Freelance Full Stack Web Developer</h3>
+            <span class="job-meta">Voqa · Sep 2020 — Jul 2021</span>
+          </header>
+          <div class="line indent comment-inline">// stack: WooCommerce, WordPress</div>
+          <ul class="job-list">
+            <li>Launched a full-lifecycle e-commerce platform from scratch using WooCommerce and WordPress.</li>
+          </ul>
+          <div class="line">}</div>
+        </article>
+
+        <article class="job">
+          <div class="line kw">function <span class="fn">PruLifePH</span>(<span class="param">stack</span>) {</div>
+          <header class="job-head">
+            <h3>Full Stack Web Developer</h3>
+            <span class="job-meta">Pru Life PH · Aug 2020 — Oct 2020</span>
+          </header>
+          <div class="line indent comment-inline">// stack: Node.js, React.js, MongoDB, CyberArk</div>
+          <ul class="job-list">
+            <li>Developed dynamic landing page content and managed security patches via CyberArk.</li>
+          </ul>
+          <div class="line">}</div>
+        </article>
+
+        <article class="job">
+          <div class="line kw">function <span class="fn">GlobalWebForce</span>(<span class="param">stack</span>) {</div>
+          <header class="job-head">
+            <h3>Full Stack Web Developer</h3>
+            <span class="job-meta">Global WebForce · Nov 2018 — Jul 2020</span>
+          </header>
+          <div class="line indent comment-inline">// stack: PHP (Laravel), Angular 2+, AWS, DigitalOcean, Docker</div>
+          <ul class="job-list">
+            <li>Lead Developer for custom client applications, architecting the full stack from Laravel backends to Angular front-ends.</li>
+            <li>Managed cloud deployments and server health on AWS and DigitalOcean.</li>
+          </ul>
+          <div class="line">}</div>
+        </article>
+
+        <article class="job">
+          <div class="line kw">function <span class="fn">StreamlinedCampaigns</span>(<span class="param">stack</span>) {</div>
+          <header class="job-head">
+            <h3>Full Stack Web Developer</h3>
+            <span class="job-meta">Streamlined Campaigns · Aug 2017 — Oct 2018</span>
+          </header>
+          <div class="line indent comment-inline">// stack: Node.js, Laravel, Shopify, MongoDB</div>
+          <ul class="job-list">
+            <li>Engineered custom campaign sites and integrated Laravel for complex backend business logic and API integrations.</li>
+          </ul>
+          <div class="line">}</div>
+        </article>
+
+        <article class="job">
+          <div class="line kw">function <span class="fn">SynergiaBPO</span>(<span class="param">stack</span>) {</div>
+          <header class="job-head">
+            <h3>Full Stack Web Developer (OJT/Part-Time)</h3>
+            <span class="job-meta">Synergia BPO Solutions · Apr 2016 — Oct 2016</span>
+          </header>
+          <ul class="job-list">
+            <li>Developed an internal ordering system using Python Django.</li>
+          </ul>
+          <div class="line">}</div>
+        </article>
+      </section>
+
+      <!-- EDUCATION -->
+      <section class="block" id="education">
+        <div class="line comment">// education</div>
+        <div class="edu-card">
+          <h3>Bachelor of Science in Computer Science</h3>
+          <span class="job-meta">Computer Arts and Technological College · 2013 — 2017</span>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section class="block contact" id="contact">
+        <div class="line comment">// contact</div>
+        <div class="line kw">export default <span class="var">developer</span>;</div>
+        <div class="contact-grid">
+          <a class="contact-item" href="mailto:danielmharbercasio@gmail.com">
+            <span class="key">email</span>
+            <span class="val">danielmharbercasio@gmail.com</span>
+          </a>
+          <a class="contact-item" href="tel:+639602237873">
+            <span class="key">phone</span>
+            <span class="val">+63 960 223 7873</span>
+          </a>
+          <div class="contact-item">
+            <span class="key">location</span>
+            <span class="val">Pasig City, Philippines</span>
+          </div>
+          <a class="contact-item" href="https://www.linkedin.com/in/mhardaniel/" target="_blank" rel="noopener noreferrer">
+            <span class="key">linkedin</span>
+            <span class="val">linkedin.com/in/mhardaniel</span>
+          </a>
+          <a class="contact-item" href="https://github.com/mhardaniel" target="_blank" rel="noopener noreferrer">
+            <span class="key">github</span>
+            <span class="val">github.com/mhardaniel</span>
+          </a>
+        </div>
+      </section>
+
+
+    </main>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
